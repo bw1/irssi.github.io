@@ -1,0 +1,28 @@
+digraph line {
+	size="100,100"
+	rankdir=LR;
+	beep -> irssi -> shell1 -> screen -> sshd ;
+	sshd -> ssh;
+
+	ssh -> shell2 -> xterm -> pulsaudio -> alsa ;
+	xterm -> alsa;
+	alsa -> mixer;
+
+	mixer -> amplifier -> loudspeaker -> ear;
+
+	sshd -> putty -> mixer;
+
+	{rank=same; beep sshd amplifier}
+	{rank=same; screen mixer ear}
+
+	beep [shape=egg,label="\\beep",fontsize=20];
+	irssi [shape=parallelogram,label="irssi",href="/"];
+	shell1 [shape=box,label="bash\ntcsh\nzsh\n...",href="#shell"];
+	shell2 [shape=box,label="bash\ntcsh\nzsh\n...",href="#shell"];
+	screen [shape=box,label="screen\ntmux\n..."];
+	xterm [shape=box,label="xterm\nrxvt\nlxterminal\nkonsole\n..."];
+	alsa [shape=box,label="alsa\noss"];
+	ear [shape=egg,label="ear",fontsize=20];
+	
+}
+

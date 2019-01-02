@@ -83,4 +83,8 @@ A: Modify the window-line in statusbar section in config file to `window = "{sb 
 
 A: Check [here](/assets/irssi.wav)
 
+### Q: How to beep?
+
+A: [here](../beep/)
+
 <script type="text/javascript" src="/assets/js/faq.js"></script>
