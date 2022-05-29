@@ -607,6 +607,9 @@ div.version > ul > li {
     width: auto;
     white-space: nowrap;
 }
+.hidden-lg {
+    color: red;
+}
 
 div.irssisyntax {
     --cmdlen: 0ch;
