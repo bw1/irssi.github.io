@@ -39,4 +39,8 @@ If you want to use Irssi on Windows, you can do so either through [Cygwin](https
 
 The [openSUSE Build Service](https://build.opensuse.org/) is creating binary builds for popular Linux distributions (Debian, Fedora). These can be installed with root permissions using the distribution package manager.
 
-You can find there an automated build of the **[release](https://software.opensuse.org/download.html?project=home:ailin_nemui:irssi-an&package=irssi-an)** or the **[current Git](https://software.opensuse.org/download.html?project=home:ailin_nemui:irssi-git-an&package=irssi-git-an)**, together with the Build Service-provided installation instructions.
+You can find there an automated build of the 
+**[release](https://software.opensuse.org//download.html?project=home%3Aailin_nemui%3Airssi-git-an&package=irssi-git-an)**
+or the 
+**[current Git](https://software.opensuse.org/download.html?project=home%3Aailin_nemui%3Airssi-git-an&package=irssi-git-an)**
+, together with the Build Service-provided installation instructions.
